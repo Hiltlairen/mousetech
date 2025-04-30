@@ -1,0 +1,32 @@
+/* Sección de imágenes futuras (cuadros) */
+.image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px 40px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.image-box {
+  background-color: #f9fafb;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  width: 280px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.image-box:hover {
+  border-color: #ff7f11;
+}
+
+.image-box p {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+}
