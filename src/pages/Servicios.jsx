@@ -37,7 +37,7 @@ const Servicios = () => {
             Diseña tu equipación con las mejores herramientas y crea un estilo único para tu equipo.
           </p>
           <a
-            href="https://www.owayo.es/konfigurator_html/index.php?v=6&sport=atletismo&product=camisetas_manga_corta&lang=es&land=es&design=aero"
+            href="http://localhost:5173/"
             target="_blank"
             rel="noopener noreferrer"
             className="boton-servicio"
